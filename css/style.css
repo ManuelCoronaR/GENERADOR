@@ -5,35 +5,108 @@
  *
  * Made By MaterializeCSS.com
  */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 60px;
+  background-color: rgb(173, 172, 171);
+
+}
+
+nav {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+}
+
+/* we'll add this class using javascript*/
+.nav-up {
+  top: -60px;
+  /* same as header height. use variables in LESS/SASS*/
+}
+
+.nav-background {
+  background-color: rgb(111, 137, 146);
+}
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgb(0, 0, 0);
+}
+
+.brand-logo {
+  height: 58px;
+  width: 53%;
+}
+
+.btn-nav {
+  font-size: 24px;
+  font-family: fantasy;
+  font-weight: bolder;
+
+}
+
+.container-color {
+  background-color: rgb(173, 172, 171);
 }
 
 p {
   line-height: 2rem;
+  text-indent: 50px;
+}
+
+.qSomos {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 18px;
+}
+
+.quienesS {
+  font-family: 'Finger Paint', cursive;
+  text-transform: uppercase;
+}
+
+.C2015 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+}
+
+.socialMheader {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #c22f0a;
 }
 
+
 .parallax-container {
-  min-height: 380px;
+  padding-top: 700px;
+  /* min-height: 480px; */
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
+
+.parallax-container .section {
+  width: 100%;
+}
+
+
+  .Site-content { 
+    flex: 1 0 auto;
   }
+
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -48,6 +121,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -55,3 +129,15 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
+
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Mrs Sheppards', cursive; */
