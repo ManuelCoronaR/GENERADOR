@@ -1,12 +1,65 @@
 i.circle {
-    font-size: 18px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 54px;
     color: #fff;
-    background-color: #999;
+    background-color: rgb(255, 255, 255);
     text-align: center;
 
 }
-
+.fa-facebook {
+    color: rgb(36, 101, 199);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-instagram{
+    color: rgb(141, 69, 141);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-youtube-play{
+    color: rgb(252, 2, 2);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-telegram-plane{
+    color: rgb(60, 158, 190);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-twitter{
+    color: rgb(6, 186, 247);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-linkedin{
+    color: rgb(26, 130, 165);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-pinterest-p{
+    color: rgb(155, 22, 22);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-snapchat-ghost{
+    color: rgb(230, 247, 4);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
+.fa-envelope{
+    color: rgb(136, 17, 17);
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 24px;
+}
 .circle {
     position: relative;
     margin-right: 16px;
